@@ -1,0 +1,11 @@
+Part 1
+=============
+py manage.py makemigrations --dry-run --verbosity 3
+py manage.py runserver
+py manage.py createsuperuser 
+pip install coverage
+pip install djangorestframework
+=============
+Part 3
+pip install djangorestframework-simplejwt
+
